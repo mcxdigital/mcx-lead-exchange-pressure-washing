@@ -7,9 +7,7 @@ body.compact-page{min-height:100vh;background:#081d30;color:#fff;font-family:"DM
 .compact-brand span{display:block;font-family:"DM Sans",Arial,sans-serif;font-size:8px;letter-spacing:.34em;color:var(--teal);margin-top:5px}
 .compact-header-link{font-size:12px;font-weight:800;color:#fff;border-bottom:1px solid var(--coral);padding:7px 0}
 .compact-header-link span{color:var(--coral);margin-left:8px}
-.compact-hero{position:relative;isolation:isolate;min-height:calc(100svh - 96px);padding:clamp(30px,5vh,52px) clamp(22px,8vw,112px) 46px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(310px,.72fr);align-items:center;gap:clamp(36px,7vw,100px);overflow:hidden;background:radial-gradient(ellipse at 77% 16%,#ffb77d55 0,transparent 31%),linear-gradient(118deg,#0b263d 0%,#123e56 58%,#17616a 100%)}
-.compact-hero:before{content:"";position:absolute;z-index:-1;right:-9%;bottom:-34%;width:66%;height:76%;border-radius:50%;background:linear-gradient(150deg,#ffb17c55,#ff806f28 48%,transparent 70%);filter:blur(3px)}
-.compact-sunset{position:absolute;z-index:-1;width:clamp(180px,22vw,310px);aspect-ratio:1;border-radius:50%;right:9%;top:-21%;background:linear-gradient(145deg,#ffd18c,#ff806f);opacity:.78;box-shadow:0 0 100px #ff927d35}
+.compact-hero{position:relative;isolation:isolate;min-height:calc(100svh - 96px);padding:clamp(30px,5vh,52px) clamp(22px,8vw,112px) 46px;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(310px,.72fr);align-items:center;gap:clamp(36px,7vw,100px);overflow:hidden;background:linear-gradient(90deg,rgba(5,22,38,.78) 0%,rgba(5,22,38,.55) 48%,rgba(5,22,38,.28) 100%),url("/assets/images/gulf-coast-sunset-background.webp") center center/cover no-repeat}
 .compact-copy{max-width:650px;position:relative}
 .compact-eyebrow,.form-kicker{font-size:9px;letter-spacing:.2em;font-weight:800;color:var(--aqua);margin:0 0 18px}
 .compact-eyebrow span{display:inline-block;width:22px;height:2px;background:var(--coral);vertical-align:middle;margin-right:9px}
@@ -35,7 +33,7 @@ body.compact-page{min-height:100vh;background:#081d30;color:#fff;font-family:"DM
 .compact-footer{height:32px;padding:0 clamp(20px,5vw,68px);display:flex;align-items:center;justify-content:space-between;gap:15px;background:#061725;color:#829ba6;font-size:9px}
 .compact-footer a{color:var(--teal);text-decoration:underline;text-underline-offset:3px}
 @media(min-width:1500px){.compact-hero{padding-left:max(8vw,calc((100vw - 1280px)/2));padding-right:max(8vw,calc((100vw - 1280px)/2))}}
-@media(max-width:760px){.compact-header{height:60px;padding:0 20px}.compact-hero{min-height:calc(100svh - 92px);grid-template-columns:1fr;gap:28px;padding:44px 22px 56px;align-items:start}.compact-copy h1{font-size:clamp(43px,10vw,60px)}.compact-intro{font-size:14px;margin:17px 0 20px}.compact-location{margin-top:22px}.compact-form{justify-self:stretch;max-width:none;padding:24px}.compact-sunset{width:190px;right:-55px;top:2%}.compact-bottomline{display:none}.compact-footer{height:auto;min-height:32px;padding:10px 20px;flex-wrap:wrap;font-size:8px}}
+@media(max-width:760px){.compact-header{height:60px;padding:0 20px}.compact-hero{min-height:calc(100svh - 92px);grid-template-columns:1fr;gap:28px;padding:44px 22px 56px;align-items:start}.compact-copy h1{font-size:clamp(43px,10vw,60px)}.compact-intro{font-size:14px;margin:17px 0 20px}.compact-location{margin-top:22px}.compact-form{justify-self:stretch;max-width:none;padding:24px}.compact-hero{background-position:58% center}.compact-bottomline{display:none}.compact-footer{height:auto;min-height:32px;padding:10px 20px;flex-wrap:wrap;font-size:8px}}
 @media(max-width:390px){.compact-brand{font-size:15px}.compact-header-link{font-size:10px}.compact-hero{padding-left:18px;padding-right:18px}.compact-services span{font-size:9px}.compact-form{padding:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 /* Policies page */
