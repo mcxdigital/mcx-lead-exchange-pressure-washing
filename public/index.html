@@ -38,31 +38,15 @@
         </div>
       </div>
 
-      <form class="compact-form" id="quote-form">
-        <p class="form-kicker">START HERE</p>
-        <h2 id="estimate">Request a free estimate</h2>
-        <p class="compact-form-intro">Tell us a little about your project. No pressure, just a place to start.</p>
-
-        <label for="name">Your name</label>
-        <input id="name" name="name" autocomplete="name" placeholder="Full name" required>
-
-        <label for="phone">Phone number</label>
-        <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="Best number to reach you" required>
-
-        <label for="service">What needs cleaning?</label>
-        <select id="service" name="service" required>
-          <option value="">Select a service</option>
-          <option>House or building exterior</option>
-          <option>Driveway or walkway</option>
-          <option>Patio or deck</option>
-          <option>Fence</option>
-          <option>Commercial property</option>
-          <option>Not sure yet</option>
-        </select>
-
-        <button class="compact-submit" type="submit">Request my estimate <span aria-hidden="true">→</span></button>
-        <p class="compact-status" id="form-status" role="status" aria-live="polite">Online requests are not active yet. This preview does not send or store your information.</p>
-      </form>
+      <div class="compact-form google-form-panel" id="estimate">
+        <iframe
+          class="google-form-embed"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSe08pwRWIwssK_y7uQkLOX2sucvGwS7qBQoBlqWkKfk3f0hHA/viewform?embedded=true"
+          title="Gulf Coast Exterior Care estimate request form"
+          loading="lazy"
+          allow="clipboard-write"
+        >Loading estimate request form…</iframe>
+      </div>
 
       <div class="compact-bottomline"><span>RESIDENTIAL & COMMERCIAL</span><span>A CLEANER PROPERTY STARTS HERE</span></div>
     </section>
