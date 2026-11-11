@@ -144,6 +144,6 @@ body.compact-page{min-height:100vh;background:#081d30;color:#fff;font-family:"DM
   text-align:right;
   text-shadow:0 0 14px rgba(255,128,111,.18);
 }
-@media(max-width:390px){
-  .compact-header-promise{font-size:18px;letter-spacing:.045em}
+@media(max-width:760px){
+  .compact-header-promise{font-size:8px;letter-spacing:.045em}
 }
