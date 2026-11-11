@@ -133,3 +133,17 @@ body.compact-page{min-height:100vh;background:#081d30;color:#fff;font-family:"DM
   .commercial-spotlight ul{grid-template-columns:1fr 1fr;gap:7px 12px}
 }
 @media(max-width:390px){.commercial-spotlight ul{grid-template-columns:1fr}.commercial-spotlight{padding:16px}}
+
+
+/* Header estimate promise */
+.compact-header-promise{
+  color:var(--coral);
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.09em;
+  text-align:right;
+  text-shadow:0 0 14px rgba(255,128,111,.18);
+}
+@media(max-width:390px){
+  .compact-header-promise{font-size:9px;letter-spacing:.045em}
+}
