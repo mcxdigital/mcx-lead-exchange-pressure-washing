@@ -55,3 +55,17 @@ body.compact-page{min-height:100vh;background:#081d30;color:#fff;font-family:"DM
 
 /* Text-built Gulf Coast wordmark */
 @media(max-width:390px){.brand-name{font-size:15px}.brand-mark{width:31px;height:31px}.brand-subtitle{font-size:7px;letter-spacing:.28em}}
+
+
+/* Larger header wordmark with balanced breathing room */
+.compact-header{height:auto;padding:16px clamp(20px,5vw,68px) 20px}
+.compact-brand{gap:13px}
+.brand-mark{width:42px;height:42px}
+.brand-name{font-size:22px}
+.brand-subtitle{font-size:9px;gap:7px}
+@media(max-width:390px){
+  .compact-header{padding:14px 18px 18px}
+  .brand-mark{width:36px;height:36px}
+  .brand-name{font-size:17px}
+  .brand-subtitle{font-size:7px}
+}
