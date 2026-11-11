@@ -91,3 +91,45 @@ body.compact-page{min-height:100vh;background:#081d30;color:#fff;font-family:"DM
 }
 .google-form-embed{border-radius:3px}
 @media(max-width:760px){.google-form-panel{padding:6px;border-width:2px;border-radius:7px}}
+
+
+/* Commercial services spotlight */
+.commercial-spotlight{
+  position:relative;
+  max-width:560px;
+  margin:clamp(22px,3.5vh,34px) 0 0;
+  padding:20px 22px 19px;
+  overflow:hidden;
+  border:1px solid rgba(140,232,223,.58);
+  border-left:4px solid var(--coral);
+  border-radius:8px;
+  background:linear-gradient(125deg,rgba(8,29,48,.96),rgba(16,65,83,.94) 72%,rgba(20,91,101,.92));
+  box-shadow:0 15px 36px rgba(3,15,26,.32),0 0 22px rgba(34,199,195,.12);
+}
+.commercial-spotlight:after{
+  content:"";
+  position:absolute;
+  width:150px;
+  height:150px;
+  right:-62px;
+  top:-76px;
+  border:1px solid rgba(140,232,223,.18);
+  border-radius:50%;
+  box-shadow:0 0 0 18px rgba(140,232,223,.035),0 0 0 38px rgba(255,128,111,.035);
+  pointer-events:none;
+}
+.commercial-spotlight-top{display:flex;align-items:center;gap:9px;margin-bottom:8px;color:var(--aqua);font-size:8px;font-weight:800;letter-spacing:.16em}
+.commercial-icon{display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:rgba(34,199,195,.15);color:var(--coral);font-size:13px}
+.commercial-spotlight h2{position:relative;margin:0;color:#fff;font-family:Manrope,Arial,sans-serif;font-size:clamp(19px,2.2vw,25px);line-height:1.15;letter-spacing:-.025em}
+.commercial-spotlight>p{position:relative;margin:8px 0 11px;color:#d6e7e9;font-size:11px;line-height:1.55}
+.commercial-spotlight ul{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:6px 15px;margin:0 0 14px;padding:0;list-style:none}
+.commercial-spotlight li{position:relative;padding-left:13px;color:#f2f8f8;font-size:10px;line-height:1.4}
+.commercial-spotlight li:before{content:"";position:absolute;left:0;top:.48em;width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px rgba(34,199,195,.4)}
+.commercial-spotlight>a{position:relative;display:inline-flex;align-items:center;gap:12px;padding:8px 12px;border-radius:3px;background:var(--coral);color:#173248;font-size:10px;font-weight:800;text-decoration:none;transition:transform .18s ease,background .18s ease}
+.commercial-spotlight>a:hover{transform:translateY(-1px);background:#ff9a88}
+.commercial-spotlight>a span{font-size:14px}
+@media(max-width:760px){
+  .commercial-spotlight{max-width:none;margin-top:22px;padding:18px}
+  .commercial-spotlight ul{grid-template-columns:1fr 1fr;gap:7px 12px}
+}
+@media(max-width:390px){.commercial-spotlight ul{grid-template-columns:1fr}.commercial-spotlight{padding:16px}}
